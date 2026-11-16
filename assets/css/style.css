@@ -1,0 +1,88 @@
+html {
+
+}
+* {
+  margin: 0;
+}
+
+body{
+  font-family: Inter, Arial, sans-serif;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  background: #CAC8C8;
+  align-items: center;
+}
+
+.nav-logo a{
+  padding: 1rem;
+  text-decoration: none;
+  color: black;
+  font-size: 1.8rem;
+  font-weight: 800;
+}
+
+.nav-links{
+  display: flex;
+  list-style: none;
+}
+
+.nav-links a{
+  display: flex;
+  text-decoration: none;
+  color: black;
+  padding: 1rem;
+}
+
+.nav-links a:hover{
+  background: orange;
+}
+
+html {
+  font-size: 16px;
+}
+
+.hero{
+  /*background:red;*/
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.hero-title{
+  font-size: 4rem;
+  }
+
+.hero-subtitle{
+  font-size: 1.5rem;
+  color: rgba(0,0,0,0.55);
+}
+
+.btn{
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  text-decoration: none;
+  cursor: pointer;
+  transition: .2s ease;
+}
+
+.btn-primary{
+  background-color: black;
+  color: #ffffff;
+  border: 1px solid #000000
+}
+
+.btn:hover{
+  background-color: #777;
+  transition: .5s ease;
+}
+
+.btn-secondary{
+  background-color: #fff;
+  color: black;
+  border: 2px solid #000000
+}
+
+/*@media (max-width: 600px)*/
