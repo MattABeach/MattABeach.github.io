@@ -12,6 +12,12 @@
   <body>
 
 {% include nav.html %}
+
+   {% if page.hero %}
+    <section class+"page_hero">
+      <h1>{{ page.hero }}</h1>
+    </section>sec tion>
+   {% endif%}
     
 {{ content}}
 
