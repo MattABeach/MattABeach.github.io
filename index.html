@@ -13,25 +13,8 @@
     </section>sec tion>
     {% endif%}
   
-  <nav class="navbar">
-    <div class="nav-logo">
-        <a href="https://mattabeach.github.io/contact">Matthew Beach</a>
-    </div>
-    <ul class="nav-links">
-        <li>
-            <a href="https://mattabeach.github.io/contact">Home</a>
-        </li>
-        <li>
-            <a href="#">About</a>
-        </li>
-        <li>
-            <a href="#">Portfolio</a>
-        </li>
-        <li>
-            <a href="https://mattabeach.github.io/contact">Contact</a>
-        </li>
-    </ul>   
-</nav>
+ {% include header.html %}
+
   <body>
     <section class="hero"">
       <div>
@@ -48,4 +31,7 @@
     <img src="/assets/IMG_Me_n_Wife.jpg" alt="2025 Family picture of my wife and me." width="600"> </img>
     <script src="./script.js"></script>
   </body>
+
+{% include footer.html %}
+  
 </html>
