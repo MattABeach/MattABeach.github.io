@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Home"
+---
+
 <!DOCTYPE html>
 <html lang="en">
  
@@ -6,8 +11,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pen</title>
 
-  {% include header.html %}
-   
     {% if page.hero %}
     <section class+"page_hero">
       <h1>{{ page.hero }}</h1>
@@ -33,6 +36,4 @@
     <script src="./script.js"></script>
   </body>
 
-{% include footer.html %}
-  
 </html>
