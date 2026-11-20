@@ -1,0 +1,22 @@
+
+html, body{
+  font-family: Inter, Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  align-items: stretch;
+  box-sizing: border-box;
+}
+
+.content-wrapper{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  padding: 0 8rem;
+}
+
+.page_hero{
+  padding: 2rem 2rem 2rem 2rem;
+  font-size: 2rem;
+}
