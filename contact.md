@@ -2,5 +2,6 @@
 layout: default
 title: "Contact"
 ---
-<h1>Contact Me</h1>
+<h1>Contact Me at:</h1>
+<p>beachm002@mymail.mssu.edu</p>
 
