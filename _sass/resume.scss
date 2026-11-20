@@ -1,0 +1,17 @@
+
+.resume__list{
+    list-style: none;
+}
+
+.resume__list li{
+    display: flex;
+    gap: 6rem;
+}
+
+.resume__list time{
+    width: 12rem;
+}
+
+.resume__list li span{
+    font-weight: 800;
+}
