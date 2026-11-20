@@ -1,0 +1,32 @@
+
+.site-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 2rem;
+  background-color: #f8f9fa;
+  border-top: 1px solid #e9ecef;
+}
+
+.social-links {
+  display: flex;
+  gap: 1rem; /* Creates clean spacing between icons */
+}
+
+.social-links a {
+  color: #495057;
+  transition: color 0.2s ease;
+}
+
+.social-links a:hover {
+  color: #007bff; /* Changes icon color on hover */
+}
+
+.site-footer p{
+  font-weight: 800;
+}
+
+.social-links .icon{
+  width: 20px;
+  height: 20px;
+}
