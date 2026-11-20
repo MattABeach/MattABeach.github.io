@@ -1,0 +1,49 @@
+
+.navbar{
+  display: flex;
+  background: #f8f9fa;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 4rem;
+}
+
+.nav-logo img{
+height: 2rem;
+}
+
+.nav-logo a{
+  padding: 1rem;
+  text-decoration: none;
+  color: black;
+  font-size: 1.8rem;
+  font-weight: 800;
+}
+
+.menu-toggle {
+  display: none; /* Hidden on desktop */
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.menu-checkbox,
+.menu-icon {
+  display: none; /* Hidden on desktop */
+}
+
+.nav-links{
+  display: flex;
+  list-style: none;
+}
+
+.nav-links a{
+  display: flex;
+  text-decoration: none;
+  color: black;
+  padding: 1rem;
+}
+
+.nav-links a:hover{
+  background: orange;
+}
