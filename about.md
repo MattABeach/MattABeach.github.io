@@ -8,10 +8,15 @@ title: "Contact"
         <h1>About Me</h1>
     </section>
     <section class="feature">
-         <img src="assets/2026puttputt.jpg" alt="descript..." width="600"> </img>
-        <div class="text">
-            <h2>Introduction</h2>
+    <div style="display: flex; align-items: center; gap: 20px;">
+      <img src="assets/2026puttputt.jpg" alt="descript..." width="500"> </img>
+  <div>
+    <h2>Introduction</h2>
             <p>Partially disabled U.S. Air Force veteran of 16 years. I...A little paragraph introduction that gives a sense of what you do, who you are, where you’re from, and why you created this website. This is the most likely part of the page to be read in full.</p>
+  </div>
+</div>   
+        <div class="text">
+            
         </div>
     </section>
 </section>
