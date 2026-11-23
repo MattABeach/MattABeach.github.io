@@ -1,0 +1,11 @@
+{% assign section_id = include.id | default: include.title | slugify %}
+
+<header class="portfolio-section-header" id="{{ section_id }}">
+  <h2 class="portfolio-section-title">{{ include.title }}</h2>
+  
+  {% if include.subheading %}
+    <div class="portfolio-section-subheading">
+      {{ include.subheading | markdownify }}
+    </div>
+  {% endif %}
+</header>
