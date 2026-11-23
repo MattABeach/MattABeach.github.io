@@ -8,7 +8,7 @@ title: "Contact"
         <h1>About Me</h1>
     </section>
     <section class="feature">
-    <div style="display: flex; align-items: center; gap: 20px;">
+    <div style="display: flex; align-items, column: center; gap: 20px;">
       <img src="assets/2026puttputt.jpg" alt="descript..." width="400"> 
   
     <h2>Introduction</h2>
