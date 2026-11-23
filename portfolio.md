@@ -10,7 +10,7 @@ title: "Contact"
     <time>2009 September - 2025 October</time>
   </div>
   <p>United States Air Force</p>
-    <p>MunitionsTechnician. Non-Commisioned Officer in Charge of Storage, build-up, and delivery of munitions. Communicated with multiple agencies to coordinate requirements, timelines, and training.</p>
+  <p>MunitionsTechnician. Non-Commisioned Officer in Charge of Storage, build-up, and delivery of munitions. Communicated with multiple agencies to coordinate requirements, timelines, and training.</p>
   <h2>Education</h2>
   <div>
     <time>2025-Current</time>
