@@ -1,0 +1,36 @@
+
+{% if include.email %}
+      <div class="contact-card">
+        <span class="contact-label">Email</span>
+        <div class="contact-value-row">
+          <a href="mailto:{{ include.email }}" class="contact-link">{{ include.email }}</a>
+          <button type="button" class="copy-btn" data-copy="{{ include.email }}" aria-label="Copy email address">
+            Copy
+          </button>
+        </div>
+      </div>
+
+
+<script>
+  document.querySelectorAll('.copy-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      navigator.clipboard.writeText(btn.dataset.copy).then(() => {
+        const originalText = btn.textContent;
+        btn.textContent = 'Copied!';
+        setTimeout(() => { btn.textContent = originalText; }, 2000);
+      });
+    });
+  });
+</script>
+    {% endif %}
+
+    {% if include.phone and include.phone != "" %}
+      <div class="contact-card">
+        <span class="contact-label">Phone</span>
+        <div class="contact-value-row">
+          <a href="tel:{{ include.phone | remove: ' ' | remove: '(' | remove: ')' | remove: '-' }}" class="contact-link">
+            {{ include.phone }}
+          </a>
+        </div>
+      </div>
+    {% endif %}
