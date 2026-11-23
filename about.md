@@ -9,11 +9,11 @@ title: "Contact"
     </section>
     <section class="feature">
     <div style="display: flex; align-items: center; gap: 20px;">
-      <img src="assets/2026puttputt.jpg" alt="descript..." width="500"> </img>
-  <div>
+      <img src="assets/2026puttputt.jpg" alt="descript..." width="400"> </img>
+  
     <h2>Introduction</h2>
             <p>Partially disabled U.S. Air Force veteran of 16 years. I...A little paragraph introduction that gives a sense of what you do, who you are, where you’re from, and why you created this website. This is the most likely part of the page to be read in full.</p>
-  </div>
+  
 </div>   
         <div class="text">
             
