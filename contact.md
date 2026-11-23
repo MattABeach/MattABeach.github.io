@@ -5,14 +5,14 @@ hero: Contact Me
 author: "Matthew Beach"
 ---
 <section class="contact-page">
-    <header class="contact-header">
-<h1>Contact Me at:</h1>
-   <p class="contact-intro">
-</header>
-<a href="mailto:beachm002@mymail.mssu.edu">beachm002@mymail.mssu.edu</a>
-</section>
+  <header class="contact-header">
+    <h1>Let's get in touch</h1>
+    <p class="contact-intro">
+      Interested in ...
+    </p>
+  </header>
 
-   <div class="contact-methods">
-  {% include contact.html email="email@email.com" phone="(555)555-5555" %}
+  <div class="contact-methods">
+  {% include contact.html email="beachm002@mymail.mssu.edu" phone="(253)448-7789" %}
   </div>
 </section>
