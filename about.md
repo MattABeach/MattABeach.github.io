@@ -8,12 +8,12 @@ title: "Contact"
         <h1>About Me</h1>
     </section>
     <section class="feature">
-    <div style="display: flex; align-items, column, max-width=400; gap: 20px;">
+    <div style="display: flex; align-items, column; gap: 20px;">
       <img src="assets/2026puttputt.jpg" alt="descript..." width="400"> 
   
     <h2>Introduction</h2>
         <p>Partially disabled U.S. Air Force veteran of 16 years. I am a fast learner who enjoys seeing projects come together. I am a Christian, Husband, and Father. I grew up North of Seattle, Washington. I've lived in all four time zones in the continental USA as well as in South Korea, Guam, and had military tours in Kuwait and Qatar. I created this page both as a project and to be able to share with future potential employers.</p>
-    <h2>Interests and Hobbies</h2>
+    <h2 style="display: flex; 20px;">Interests and Hobbies</h2>
         <p>I enjoy drawing (both art and technical/plans), building (my family and I have been building our own home and workshop), and reading (primarily fantasy and sci-fy).</p>
   
 </div>   
