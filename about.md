@@ -21,9 +21,7 @@ title: "Contact"
         </div>
 </div>   
 </div>
-        <div class="text">
-            
-        </div>
+       
     </section>
 </section>
 <section class="interests">
