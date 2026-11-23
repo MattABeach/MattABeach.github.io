@@ -9,10 +9,12 @@ title: "Contact"
     </section>
     <section class="feature">
     <div style="display: flex; align-items: center; gap: 20px;">
-      <img src="assets/2026puttputt.jpg" alt="descript..." width="400"> </img>
+      <img src="assets/2026puttputt.jpg" alt="descript..." width="400"> 
   
     <h2>Introduction</h2>
-            <p>Partially disabled U.S. Air Force veteran of 16 years. I...A little paragraph introduction that gives a sense of what you do, who you are, where you’re from, and why you created this website. This is the most likely part of the page to be read in full.</p>
+        <p>Partially disabled U.S. Air Force veteran of 16 years. I am a fast learner who enjoys seeing projects come together. I am a Christian, Husband, and Father. I grew up North of Seattle, Washington. I've lived in all four time zones in the continental USA as well as in South Korea, Guam, and had military tours in Kuwait and Qatar. I created this page both as a project and to be able to share with future potential employers.</p>
+    <h2>Interests and Hobbies</h2>
+        <p>I enjoy drawing (both art and technical/plans), building (my family and I have been building our own home and workshop), and reading (primarily fantasy and sci-fy).</p>
   
 </div>   
         <div class="text">
@@ -21,8 +23,7 @@ title: "Contact"
     </section>
 </section>
 <section class="interests">
-    <h2>Interests and Hobbies</h2>
-    <p>I love immersive stories and want to explore various media in which those stories can be shared.  Please explore my portfolio to see my style and storytelling exercise.</p>
+    
 </section>
 <section class="experience">
     <ul class="experience__list">
