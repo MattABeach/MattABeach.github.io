@@ -9,3 +9,49 @@
     </div>
   {% endif %}
 </header>
+
+<article class="portfolio-item">
+  <div class="portfolio-media">
+    {% if include.youtube_id %}
+      <div class="video-wrapper">
+        <iframe 
+          src="https://www.youtube.com/embed/{{ include.youtube_id }}" 
+          title="{{ include.caption | default: 'YouTube video player' | escape }}" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+          allowfullscreen 
+          loading="lazy">
+        </iframe>
+      </div>
+
+    {% elsif include.image %}
+      {% if include.link %}
+        <a href="{{ include.link | relative_url }}" class="portfolio-image-link">
+          <img src="{{ include.image | relative_url }}" alt="{{ include.alt | default: include.caption | escape }}" loading="lazy">
+        </a>
+      {% else %}
+        <img src="{{ include.image | relative_url }}" alt="{{ include.alt | default: include.caption | escape }}" loading="lazy">
+      {% endif %}
+
+    {% elsif include.embed %}
+      <div class="custom-embed-wrapper">
+        {{ include.embed }}
+      </div>
+    {% endif %}
+  </div>
+
+  {% if include.caption or include.description %}
+    <div class="portfolio-details">
+      {% if include.caption %}
+        <h3 class="portfolio-caption">{{ include.caption }}</h3>
+      {% endif %}
+      
+      {% if include.description %}
+        <div class="portfolio-description">
+          {{ include.description | markdownify }}
+        </div>
+      {% endif %}
+    </div>
+  {% endif %}
+</article>
+
