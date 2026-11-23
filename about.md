@@ -9,7 +9,7 @@ title: "Contact"
     </section>
     <section class="feature">
     <div style="display: flex; align-items, column: center; gap: 20px;">
-      <img src="assets/2026puttputt.jpg" alt="descript..." width="400"> 
+      <img src="assets/2026puttputt.jpg" alt="descript..." style="float: left; margin-right: 20px; margin-bottom: 10px; width="400"> 
   
     <h2>Introduction</h2>
         <p>Partially disabled U.S. Air Force veteran of 16 years. I am a fast learner who enjoys seeing projects come together. I am a Christian, Husband, and Father. I grew up North of Seattle, Washington. I've lived in all four time zones in the continental USA as well as in South Korea, Guam, and had military tours in Kuwait and Qatar. I created this page both as a project and to be able to share with future potential employers.</p>
