@@ -10,10 +10,13 @@ title: "Contact"
     <time>2009 September - 2025 October</time>
   </div>
   <p>United States Air Force</p>
-  <p>MunitionsTechnician. As the Non-Commisioned Officer in Charge of ...</p>
-<p>Education</p>
+    <p>MunitionsTechnician. Non-Commisioned Officer in Charge of Storage, build-up, and delivery of munitions. Communicated with multiple agencies to coordinate requirements, timelines, and training.</p>
+  <p>Education</p>
   <div>
     <time>2025-Current</time>
+    <p>Missouri Southern State University</p>
+    <p>Student. Gained technical skills and put into practical application for hands on experience.</p>
   </div>
-  <p>college</p>
-
+ 
+    
+  
